@@ -1,0 +1,175 @@
+.footer {
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-title {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.footer-title h1 {
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.footer-title img {
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    z-index: -1;
+    width: 130px;
+}
+
+
+
+.akhilesh_logo {
+    width: 10px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-left p {
+    font-size: 20px;
+    max-width: 400px;
+    color: #ccc;
+}
+
+.footer-top-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.footer-email-input {
+    display: flex;
+    gap: 20px;
+    padding: 18px 20px;
+    border-radius: 50px;
+    background: #32323b;
+    padding-right: 60px;
+}
+
+.footer-email-input input {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-size: 18px;
+    font-family: outfit;
+}
+
+.footer-subscribe {
+    font-size: 20px;
+    padding: 18px 40px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.footer-bottom-right {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    font-size: 19px;
+}
+
+.footer-bottom-left {
+    color: #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-bottom-right p {
+    color: #ccc;
+}
+
+.footer-email-input:hover {
+    border: 1px solid white;
+}
+
+.footer-subscribe:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+@media(max-width:768px) {
+    .footer {
+        margin: 50px 70px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media(max-width: 480px) {
+    .footer {
+        gap: 30px;
+        margin: 50px 20px;
+        align-items: start;
+    }
+
+    .footer-top-right {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .footer-email-input {
+        padding: 18px 27px;
+    }
+
+    .footer-subscribe {
+        font-size: 22px;
+        padding: 15px 35px;
+        border-radius: 50px;
+        background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .footer-hr {
+        width: 100%;
+    }
+
+    .footer-title {
+        position: relative;
+    }
+    
+    .footer-title h1 {
+        padding: 0px 10px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .footer-title img {
+        position: absolute;
+        bottom: 0;
+        left: 70px;
+        z-index: -1;
+        width: 130px;
+    }
+    
+}
