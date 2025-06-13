@@ -1,12 +1,12 @@
 import React from 'react';
 import './Hero.css';
-import profile_img from '../../assets/profile_img.svg';
+import profile_img from '../../assets/new_profile.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
-      <img src={profile_img} alt="" />
+      <img src={profile_img} alt="image" style={{borderRadius: "50%", height: "20rem", width: "20rem", objectFit: "cover"}} />
 
       <h1> <span> I'm Akhilesh Sharma, </span> Software Developer from in MH-30. </h1>
 
