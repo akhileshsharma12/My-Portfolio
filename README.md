@@ -66,6 +66,11 @@ my-portfolio/
 - [Vite](https://vitejs.dev/)
 - CSS
 
+## Screenshot 
+
+![Portfolio Screenshot](public/assets/firstlook.png)
+> Example screenshot of the portfolio homepage.  
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
