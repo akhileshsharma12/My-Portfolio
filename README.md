@@ -71,6 +71,6 @@ my-portfolio/
 ![Portfolio Screenshot](./public/assets/firstlook.png)
 > Example screenshot of the portfolio homepage.  
 
-## License
+## Author
 
-This project is open source and available under the [MIT License](LICENSE).
+Akhilesh Sharma 
