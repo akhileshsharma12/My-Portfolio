@@ -68,7 +68,7 @@ my-portfolio/
 
 ## Screenshot 
 
-![Portfolio Screenshot](public/assets/firstlook.png)
+![Portfolio Screenshot](./public/assets/firstlook.png)
 > Example screenshot of the portfolio homepage.  
 
 ## License
