@@ -41,8 +41,8 @@ my-portfolio/
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clonehttps://github.com/akhileshsharma12/My-Portfolio.git
+   cd my-portfolio
    ```
 
 2. **Install dependencies:**
